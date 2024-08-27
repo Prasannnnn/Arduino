@@ -1,0 +1,9 @@
+Components Needed
+ESP32
+Ultrasonic Sensor (HC-SR04)
+Breadboard and Wires
+Wiring for Ultrasonic Sensor (HC-SR04)
+VCC: Connect to the 3.3V pin of the ESP32.
+GND: Connect to the GND pin of the ESP32.
+Trig: Connect to GPIO pin 5.
+Echo: Connect to GPIO pin 18.
