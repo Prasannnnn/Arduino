@@ -1,9 +1,14 @@
 Components Needed
 ESP32
-LDR (Light Dependent Resistor)
+DHT11
 10kΩ Resistor
 Breadboard and Wires
 Wiring for LDR
-Connect one end of the LDR to the 3.3V pin of the ESP32.
-Connect the other end of the LDR to one end of the 10kΩ resistor and the analog input pin (e.g., GPIO34) of the ESP32.
-Connect the other end of the 10kΩ resistor to GND.
+Hardware Setup
+DHT11 Sensor:
+VCC: Connect to the 3.3V pin of the ESP32.
+GND: Connect to the GND pin of the ESP32.
+Data: Connect to a GPIO pin (e.g., GPIO4) of the ESP32.
+Pull-up Resistor (Optional but recommended): Place a 10kΩ resistor between the Data pin and VCC.
+2. Installing Required Libraries
+Make sure you have installed the "DHT sensor library" and "Adafruit Unified Sensor" library in your Arduino IDE. You can do this via the Library Manager (Sketch > Include Library > Manage Libraries).
